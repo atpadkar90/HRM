@@ -1,0 +1,12 @@
+
+x
+java:S1192"IDefine a constant instead of duplicating this literal "user.dir" 3 times.(†øµüHšRCRITICALZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(®ìí„HRMINORZ
+CODE_SMELL
+b
+java:S1135'"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿHŸRINFOZ
+CODE_SMELL
+b
+java:S11356"2Complete the task associated to this TODO comment.(ÕÌ®şÿÿÿÿH RINFOZ
+CODE_SMELL

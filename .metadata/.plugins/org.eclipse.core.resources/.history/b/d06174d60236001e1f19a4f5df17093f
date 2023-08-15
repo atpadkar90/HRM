@@ -1,0 +1,44 @@
+package TestLayerPacakge;
+
+import org.openqa.selenium.By;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.Test;
+
+import BaseLayerPackage.BaseClass;
+import PageLayer.PIMPage;
+
+public class PIMPageTest extends BaseClass{
+	
+	
+	PIMPage pim;
+	@Test(priority=1, groups= {"PIMPage"},dependsOnGroups = {"RegressionTesting"})
+	public void validaddEmployeeFunctionality()
+	{
+		 pim= new PIMPage();
+		 pim.clickOnAddEmployeeButton();
+		
+		
+		
+	}
+	
+	@Test(priority=2, groups= {"PIMPage"},dependsOnGroups = {"RegressionTesting"})
+	public void EnterEmployeeFuntionality()
+	{
+		
+		pim.AddEmploye("Jay","Vijay", "Bhanusahli");
+		
+		String idnumber=getDriver().findElement(By.xpath("(//input[@class='oxd-input oxd-input--active'])[2]")).getAttribute("value");
+		
+		System.out.println(idnumber);
+	}
+	
+	@Test(priority=3)
+	public void clickOnSave()
+	{
+		
+		pim.clickOnSaveButoon();
+	}
+
+
+}
+

@@ -1,0 +1,8 @@
+
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•¿ÀèþÿÿÿÿH®RMINORZ
+CODE_SMELL
+v
+java:S1128"CRemove this unused import 'org.openqa.selenium.JavascriptExecutor'.(Ë‚«»8ÅÚËö–1H¯RMINORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(ç‘Þ‚ýÿÿÿÿ8ÅÚËö–1H±RMAJORZ
+CODE_SMELL

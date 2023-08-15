@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-09T14:14:03 IST" name="Suite" finished-at="2023-07-09T14:15:14 IST" duration-ms="71242">
+    <groups>
+    </groups>
+    <test started-at="2023-07-09T14:14:03 IST" name="Test" finished-at="2023-07-09T14:15:14 IST" duration-ms="71242">
+      <class name="TestLayer.HomePageTest">
+        <test-method signature="validateHomePageTitle()[pri:1, instance:TestLayer.HomePageTest@36916eb0]" started-at="2023-07-09T14:14:13 IST" name="validateHomePageTitle" finished-at="2023-07-09T14:14:13 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method signature="validateHomePageUrl()[pri:2, instance:TestLayer.HomePageTest@36916eb0]" started-at="2023-07-09T14:14:13 IST" name="validateHomePageUrl" finished-at="2023-07-09T14:14:13 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageUrl -->
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.LoginPage">
+        <test-method is-config="true" signature="setUPp()[pri:0, instance:TestLayer.LoginPage@729d991e]" started-at="2023-07-09T14:14:03 IST" name="setUPp" finished-at="2023-07-09T14:14:13 IST" duration-ms="9494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUPp -->
+        <test-method signature="loginFunctionality()[pri:0, instance:TestLayer.LoginPage@729d991e]" started-at="2023-07-09T14:14:13 IST" name="loginFunctionality" finished-at="2023-07-09T14:14:13 IST" duration-ms="459" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunctionality -->
+      </class> <!-- TestLayer.LoginPage -->
+      <class name="TestLayer.ContactPageTest">
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:14 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:21 IST" duration-ms="6703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mayur]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[mayur@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:21 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:26 IST" duration-ms="5266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anjali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pqr2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[anjali@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:26 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:32 IST" duration-ms="5633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sulbha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Date]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sulbha@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[inactive]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:32 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:38 IST" duration-ms="5832" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhishek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bankar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abhishek@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:38 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:44 IST" duration-ms="5986" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ajinkya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kadam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ajinkya@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[new]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:44 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:50 IST" duration-ms="6214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balaji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[balaji@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:50 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:14:57 IST" duration-ms="7230" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhushan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sawale]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[bhushan@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:14:57 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:15:03 IST" duration-ms="5909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gauri ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chawathe]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr8]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gauri@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[New]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:15:03 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:15:09 IST" duration-ms="5834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gaurav ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jagtap]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[gaurav@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+        <test-method signature="validUserCreate(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:TestLayer.ContactPageTest@7bab3f1a]" started-at="2023-07-09T14:15:09 IST" name="validUserCreate" data-provider="getContactData" finished-at="2023-07-09T14:15:14 IST" duration-ms="5247" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[komal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[saykar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pqr10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[komal@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[on hold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validUserCreate -->
+      </class> <!-- TestLayer.ContactPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

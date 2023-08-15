@@ -1,0 +1,27 @@
+
+p	java:S106"9Replace this use of System.out or System.err by a logger.(Òêüÿÿÿÿ8É¬Ş§1HÏ!RMAJORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(®ÀÒùûÿÿÿÿ8É¬Ş§1HÎ!RMAJORZ
+CODE_SMELL
+b
+java:S3740"/Provide the parametrized type for this generic.(µˆ«ë8ä×ò§1Hï!RMAJORZ
+CODE_SMELL
+Š	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷±…İÿÿÿÿÿHÈ!RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(”åÕ÷ûÿÿÿÿ8 õí§1Hê!RMAJORZ
+CODE_SMELL
+p	java:S106&"9Replace this use of System.out or System.err by a logger.(æ¨¤šøÿÿÿÿ8­Š¨1H‚"RMAJORZ
+CODE_SMELL
+g
+java:S3740 "/Provide the parametrized type for this generic.(ÓÃÓÆùÿÿÿÿ8­Š¨1H€"RMAJORZ
+CODE_SMELL
+g
+java:S3740 "/Provide the parametrized type for this generic.(ÓÃÓÆùÿÿÿÿ8­Š¨1H"RMAJORZ
+CODE_SMELL
+Œ
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(·óëë8¤µã§1HØ!RMINORZ
+CODE_SMELL
+g
+java:S3740"/Provide the parametrized type for this generic.(®ÀÒùûÿÿÿÿ8É¬Ş§1HÍ!RMAJORZ
+CODE_SMELL

@@ -1,0 +1,86 @@
+package ConnectBrowser;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrangeHRM {
+
+	public static void main(String[] args) {
+		
+		//Up Casting Concept
+		WebDriver driver= new ChromeDriver();
+		
+		//Open Orange HRM website
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+		//Enter user name
+		WebElement wb=driver.findElement(By.name("username"));
+		
+		System.out.println(wb.isDisplayed());
+		System.out.println(wb.isEnabled());
+		System.out.println(wb.isSelected());
+		
+		wb.sendKeys("Admin");
+		
+		//Enter password
+		
+WebElement wb1=driver.findElement(By.name("password"));
+		
+		System.out.println(wb1.isDisplayed());
+		System.out.println(wb1.isEnabled());
+		System.out.println(wb1.isSelected());
+		
+		wb.sendKeys("admin123");
+		
+		
+		//Click on login button
+		
+		WebElement wb2=driver.findElement(By.xpath("//button[text()=' Login ']"));
+		System.out.println(wb2.isDisplayed());
+		System.out.println(wb2.isEnabled());
+		
+		
+		//Click on PIM page
+		
+		WebElement wb3=driver.findElement(By.xpath("//button[text()=' Add ']"));
+		System.out.println(wb3.isDisplayed());
+		System.out.println(wb3.isEnabled());
+	
+		//Enter first name
+WebElement wb4=driver.findElement(By.name("firstName"));
+		
+		System.out.println(wb4.isDisplayed());
+		System.out.println(wb4.isEnabled());
+		
+		//enter Mmiddle name
+WebElement wb5=driver.findElement(By.name("middleName"));
+		
+		System.out.println(wb5.isDisplayed());
+		System.out.println(wb5.isEnabled());
+	
+		//enter last name
+		
+WebElement wb6=driver.findElement(By.name("lastName"));
+		
+		System.out.println(wb6.isDisplayed());
+		System.out.println(wb6.isEnabled());
+		
+		//Click on submit button
+	
+		
+		WebElement wb7=driver.findElement(By.xpath("//button[text()=' Save ']"));
+		System.out.println(wb7.isDisplayed());
+		System.out.println(wb7.isEnabled());
+		
+		WebElement wb8=driver.findElement(By.xpath("//div/label[text()='Male']"));
+		System.out.println(wb8.isDisplayed());
+		System.out.println(wb.isEnabled());
+		
+		
+	}
+	
+	
+
+}

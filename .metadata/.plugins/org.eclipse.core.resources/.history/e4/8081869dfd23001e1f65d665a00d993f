@@ -1,0 +1,25 @@
+package Listener;
+
+import org.testng.annotations.Test;
+
+import junit.framework.Assert;
+
+public class Demo1 {
+	
+	
+	@Test
+	
+	public void m1()
+	{
+		Assert.assertEquals(12, 12);
+	}
+	
+@Test
+	
+	public void m2()
+	{
+		Assert.assertEquals("gmail", "gmail");
+	}
+
+
+}

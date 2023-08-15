@@ -1,0 +1,113 @@
+package ConnectBrowser;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrangeHRM {
+
+	public static void main(String[] args) throws Exception {
+		
+		//Up Casting Concept
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		
+		//Open Orange HRM website
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+		//Enter user name
+		WebElement wb=driver.findElement(By.name("username"));
+		
+		System.out.println(wb.isDisplayed());
+		System.out.println(wb.isEnabled());
+		
+		
+		wb.sendKeys("Admin");
+		
+		//Enter password
+		
+WebElement wb1=driver.findElement(By.name("password"));
+		
+		System.out.println(wb1.isDisplayed());
+		System.out.println(wb1.isEnabled());
+		
+		
+		wb1.sendKeys("admin123");
+		
+		
+		//Click on login button
+		WebElement wb2=driver.findElement(By.xpath("//button[text()=' Login ']"));
+		
+		System.out.println(wb2.isDisplayed());
+		System.out.println(wb2.isEnabled());
+		wb2.click();
+		
+	//Thread.sleep(2000);
+		//click on PIM 
+		WebElement wb3=driver.findElement(By.xpath("//span[text()='PIM']"));
+		System.out.println(wb3.isDisplayed());
+		System.out.println(wb3.isEnabled());
+		wb3.click();	
+		
+		
+
+		//click on add button
+		WebElement wb33=driver.findElement(By.xpath("//button[text()=' Add ']"));
+		System.out.println(wb33.isDisplayed());
+		System.out.println(wb33.isEnabled());
+		wb33.click();
+
+		//Enter first name
+	WebElement wb4=driver.findElement(By.name("firstName"));
+		
+		System.out.println(wb4.isDisplayed());
+		System.out.println(wb4.isEnabled());
+		wb4.sendKeys("abc");
+		
+		//enter Middle name
+	WebElement wb5=driver.findElement(By.name("middleName"));
+		
+		System.out.println(wb5.isDisplayed());
+		System.out.println(wb5.isEnabled());
+		wb5.sendKeys("pqr");
+		
+		//enter last name
+		
+	WebElement wb6=driver.findElement(By.name("lastName"));
+		
+		System.out.println(wb6.isDisplayed());
+		System.out.println(wb6.isEnabled());
+		wb6.sendKeys("xyz");
+		//Click on submit button
+
+		
+		WebElement wb7=driver.findElement(By.xpath("//button[text()=' Save ']"));
+		System.out.println(wb7.isDisplayed());
+		System.out.println(wb7.isEnabled());
+		wb7.click();
+		
+		//select male button
+		
+		WebElement wb8=driver.findElement(By.xpath("//span[@class='oxd-radio-input oxd-radio-input--active --label-right oxd-radio-input']"));
+		
+		System.out.println(wb8.isDisplayed());
+		
+		wb8.click();
+		
+	
+		
+		//Click on submit button
+		
+		
+			WebElement wb9=driver.findElement(By.xpath("//button[text()=' Save ']"));
+			System.out.println(wb9.isDisplayed());
+			System.out.println(wb9.isEnabled());
+			wb9.click();
+		
+	}}

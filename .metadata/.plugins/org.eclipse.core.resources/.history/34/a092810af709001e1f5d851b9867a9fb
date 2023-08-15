@@ -1,0 +1,28 @@
+package ConnectBrowser;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class RadioButton {
+
+	public static void main(String[] args) throws Exception {
+		WebDriver driver= new ChromeDriver();
+		driver.get("https://demoqa.com/automation-practice-form");
+		
+		WebElement wb=driver.findElement(By.id("gender-radio-1"));
+
+		Thread.sleep(3000);
+		System.out.println( wb.isDisplayed());
+		System.out.println(wb.isEnabled());
+		System.out.println(wb.isSelected());
+		
+		wb.click();
+		
+		System.out.println(wb.isSelected());
+		
+		
+	}
+
+}

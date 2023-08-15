@@ -1,0 +1,14 @@
+
+h
+java:S1854"5Remove this useless assignment to local variable "m".(‹ºó8¿¬²ï™1HŒRMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜§ß HRMINORZ
+CODE_SMELL
+}
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(›Éù–ùÿÿÿÿ8¿¬²ï™1HRMINORZ
+CODE_SMELL
+Y
+java:S1481"&Remove this unused "m" local variable.(‹ºó8¿¬²ï™1H‘RMINORZ
+CODE_SMELL
+p	java:S106"9Replace this use of System.out or System.err by a logger.(™˜¯íúÿÿÿÿ8‡Ã©ï™1H“RMAJORZ
+CODE_SMELL

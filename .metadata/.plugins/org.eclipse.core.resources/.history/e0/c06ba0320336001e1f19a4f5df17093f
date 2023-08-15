@@ -1,0 +1,86 @@
+package TestLayerPacakge;
+
+import org.openqa.selenium.By;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import BaseLayerPackage.BaseClass;
+import PageLayer.HomePage;
+
+
+public class HomePageTest extends BaseClass {
+	
+	HomePage hpage;
+	@Test(priority=1, groups= {"HomePage"},dependsOnGroups = {"LoginPage"})
+	
+	public void validhomePageLogo()
+	{
+		
+		 hpage= new HomePage();
+ 		
+		hpage.logoFunctionality();
+		
+		Assert.assertTrue(true);
+		
+//			boolean logoStatus = getDriver().findElement(By.xpath("//img[@alt='client brand banner']")).isDisplayed();
+//
+//			if (logoStatus) {
+//				System.out.println("Logo Test cases is pass");
+//			} else {
+//				System.err.println("Logo test cases is fail");
+//			}
+		}
+		
+
+	@Test(priority=2, groups= {"HomePage"},dependsOnGroups = {"LoginPage"})
+	public void validhomePageURL()
+	{
+		String abc=hpage.hompageurl();
+		Assert.assertEquals(abc.contains("orangehrmlive"), true);
+		
+		
+		
+//		String url=getDriver().getCurrentUrl();
+//		
+//		if(url.contains("orangehrmlive"))
+//		{
+//			System.out.println("Test Case is Pass");
+//		}
+//		else
+//		{
+//			System.out.println("Test Case is fail");
+//		}
+		
+	}
+	
+	@Test(priority=3, groups= {"HomePage"},dependsOnGroups = {"LoginPage"})
+	public void validhomePageTitle()
+	{
+		String title=hpage.hompageTitle();
+		
+		Assert.assertEquals(title.equalsIgnoreCase("OrangeHRM"), true);
+		
+//		String title=getDriver().getTitle();
+//		
+//		if(title.equalsIgnoreCase("OrangeHRM"))
+//		{
+//			System.out.println("Test Case is Pass");
+//		}
+//		else
+//		{
+//			System.out.println("Test Case is fail");
+//		}
+	}
+	
+
+	@Test(priority=4, groups= {"HomePage"},dependsOnGroups = {"LoginPage"})
+	public void clickOnPIM()
+	{
+		HomePage home= new HomePage();
+		home.clickOnPIMPage();
+	}
+
+	
+	
+	
+}

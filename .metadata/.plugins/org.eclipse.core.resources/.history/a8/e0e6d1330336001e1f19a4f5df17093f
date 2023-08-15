@@ -1,0 +1,26 @@
+package TestLayerPacakge;
+
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import BaseLayerPackage.BaseClass;
+import PageLayer.LoginPage;
+
+public class LoginPageTest extends BaseClass {
+	
+	
+	@BeforeTest
+	public void setUp()
+	{
+		BaseClass.initilization();
+	}
+
+	@Test(groups= {"LoginPage"},dependsOnGroups = {"RegressionTesting"})
+	public void validloginFunctionality()
+	{
+		LoginPage log= new LoginPage();
+		log.EnterLoginPage("Admin", "admin123");
+	
+		
+	}
+}

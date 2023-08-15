@@ -1,0 +1,19 @@
+
+{	java:S116&"PRename this field "Email" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ê‹¯ÇHòRMINORZ
+CODE_SMELL
+{	java:S116"PRename this field "Phone" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ôÜﬁÄHïRMINORZ
+CODE_SMELL
+{	java:S116 "PRename this field "State" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÊ…ÑHóRMINORZ
+CODE_SMELL
+Ö	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(•À≠ÊHîRMINORZ
+CODE_SMELL
+Å	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ü∏Øç¯ˇˇˇˇHëRMINORZ
+CODE_SMELL
+|	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó•Ó£HìRMINORZ
+CODE_SMELL
+}	java:S116)"SRename this field "Password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ò‹]HôRMINORZ
+CODE_SMELL
+|	java:S117A"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ó•Ó£HíRMINORZ
+CODE_SMELL
+z	java:S116"ORename this field "City" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ëà·HñRMINORZ
+CODE_SMELL

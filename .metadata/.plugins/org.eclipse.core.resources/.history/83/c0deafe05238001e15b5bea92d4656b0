@@ -1,0 +1,28 @@
+package SetInterface;
+
+import java.util.NavigableSet;
+import java.util.TreeSet;
+
+public class AscendingArray {
+	
+	public static void main(String[] args) {
+		
+//descending string order
+	
+	String [] abc= {"Selenium","RestAssured","Hamcrest","Jenkins","POJO"};
+	
+	TreeSet ts=new TreeSet();
+
+	for(int i=0;i<abc.length;i++)
+	{
+	ts.add(abc[i]);
+		
+	}
+		System.out.println(ts);
+		
+		System.out.println(ts.descendingIterator());
+			
+	
+
+}
+}

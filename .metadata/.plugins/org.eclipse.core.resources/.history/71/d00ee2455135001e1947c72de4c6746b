@@ -1,0 +1,34 @@
+package HandleDropDownWithoutSelect;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class HandleDropDown {
+
+	public static void main(String[] args) {
+		
+		WebDriver driver= new ChromeDriver();
+		
+		driver.get("https://demo.guru99.com/test/newtours/register.php");
+		
+		List<WebElement>ls=driver.findElements(By.xpath("//select[@name='country']"));
+		
+		for(WebElement abc:ls)
+		{
+			String a=abc.getText();
+			System.out.println(a);
+			
+			if(a.contains("INDIA"))
+			{
+					abc.click();
+				
+			}
+		}
+
+	}
+
+}

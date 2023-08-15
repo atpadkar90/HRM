@@ -1,0 +1,14 @@
+
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ûׂנHבRMINORZ
+CODE_SMELL
+p	java:S106%"9Replace this use of System.out or System.err by a logger.(ֵ¶ִישÿÿÿÿ8‘ױלכ™1HגRMAJORZ
+CODE_SMELL
+p	java:S106,"9Replace this use of System.out or System.err by a logger.(ֵ¶ִישÿÿÿÿ8‘ױלכ™1HדRMAJORZ
+CODE_SMELL
+s	java:S125"<This block of commented-out lines of code should be removed.(—־מµשÿÿÿÿ8‡´¶כ™1HהRMAJORZ
+CODE_SMELL
+n	java:S125"<This block of commented-out lines of code should be removed.(עָ׃8¹הÛכ™1HטRMAJORZ
+CODE_SMELL
+g
+java:S1128"/Remove this unused import 'java.time.Duration'.(כב¯‰üÿÿÿÿ8‡´¶כ™1HכRMINORZ
+CODE_SMELL

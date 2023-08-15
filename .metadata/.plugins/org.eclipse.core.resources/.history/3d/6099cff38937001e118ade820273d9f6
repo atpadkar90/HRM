@@ -1,0 +1,30 @@
+package Collection;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Arraylist {
+
+	public static void main(String[] args) {
+	
+		
+		String a="selenium testing";
+		
+		char[]abc=a.toCharArray();
+		
+		System.out.println(abc);
+		
+		
+		
+		ArrayList ls=new ArrayList();
+		
+		//ls.add("Atuomation");
+		
+		ls.set(0, "Automation");
+		
+		String ab=ls.toString();
+		System.out.println(ab);
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+
+W
+java:S2925$"$Remove this use of "Thread.sleep()".(ø¸¼8ÛÕ¨î–1HRMAJORZ
+CODE_SMELL
+W
+java:S29253"$Remove this use of "Thread.sleep()".(ø¸¼8ÛÕ¨î–1H’RMAJORZ
+CODE_SMELL
+W
+java:S2925"$Remove this use of "Thread.sleep()".(ø¸¼8ÛÕ¨î–1HRMAJORZ
+CODE_SMELL
+W
+java:S2925 "$Remove this use of "Thread.sleep()".(ø¸¼8ÛÕ¨î–1HRMAJORZ
+CODE_SMELL
+W
+java:S2925/"$Remove this use of "Thread.sleep()".(ø¸¼8ÛÕ¨î–1H‘RMAJORZ
+CODE_SMELL
+W
+java:S2925"$Remove this use of "Thread.sleep()".(ø¸¼8ÛÕ¨î–1HRMAJORZ
+CODE_SMELL
+½
+java:S3577
+"„Rename class "Demo2" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(£–ÉÉşÿÿÿÿ8ÿ“©î–1H“RMINORZ
+CODE_SMELL
+h
+java:S5976"6Replace these 3 tests with a single Parameterized one.(šå© 8ÿ“©î–1H”RMAJORZ
+CODE_SMELL

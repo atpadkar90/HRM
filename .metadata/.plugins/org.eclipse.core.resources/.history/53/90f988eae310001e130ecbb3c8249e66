@@ -1,0 +1,22 @@
+package Tutorial;
+
+public class Sample1 {
+
+	
+	public static void abc()
+	{
+		System.out.println("Demo1");
+	}
+	
+	public  void xyz(int a)
+	{
+		System.out.println("XYZ");
+	}
+	
+	public static void main(String[] args) {
+		
+		Sample1 obj= new Sample1();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+
+l	java:S125"<This block of commented-out lines of code should be removed.(ã¯­ÕıÿÿÿÿHÀ!RMAJORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(Ù£¢¨HÁ!RMAJORZ
+CODE_SMELL
+i	java:S106"9Replace this use of System.out or System.err by a logger.(æ·ğ÷şÿÿÿÿHÂ!RMAJORZ
+CODE_SMELL
+d	java:S106"9Replace this use of System.out or System.err by a logger.(üåËHÃ!RMAJORZ
+CODE_SMELL
+…	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÊÆ»…HÄ!RMINORZ
+CODE_SMELL
+[
+java:S3740"/Provide the parametrized type for this generic.(Ù£¢¨HÅ!RMAJORZ
+CODE_SMELL
+\
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ1HÆ!RMINORZ
+CODE_SMELL

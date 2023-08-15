@@ -1,0 +1,50 @@
+package ConnectBrowser;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class OrangeHRM {
+
+	public static void main(String[] args) {
+		
+		//Up Casting Concept
+		WebDriver driver= new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		
+		//Open Orange HRM website
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+		//Enter user name
+		WebElement wb=driver.findElement(By.name("username"));
+		
+		System.out.println(wb.isDisplayed());
+		System.out.println(wb.isEnabled());
+		
+		
+		wb.sendKeys("Admin");
+		
+		//Enter password
+		
+WebElement wb1=driver.findElement(By.name("password"));
+		
+		System.out.println(wb1.isDisplayed());
+		System.out.println(wb1.isEnabled());
+		
+		
+		wb.sendKeys("admin123");
+		
+		
+		//Click on login button
+		
+		WebElement wb2=driver.findElement(By.xpath("//button[text()=' Login ']"));
+		System.out.println(wb2.isDisplayed());
+		System.out.println(wb2.isEnabled());
+		
+	}}
